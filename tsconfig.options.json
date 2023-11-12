@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        // 编译相关
+        "composite": true,
+        "incremental": true,
+
+        // 与生成 js文件、d.ts文件、sourceMap文件有关
+        "declaration": true,
+        "declarationMap": true,
+        "emitDeclarationOnly": true,
+        "noEmitOnError": true,
+        "skipLibCheck": true,
+
+        // 与CommonJS和ESModule之间的互操作性有关
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        
+        // 代码环境
+        "target": "ES2020",
+        "module": "ESNext",
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable",
+        ],
+        "jsx": "react-jsx",
+
+        "strict": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        
+    }
+}
